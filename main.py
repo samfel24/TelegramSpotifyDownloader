@@ -17,7 +17,7 @@ def update_config():
         json.dump(config, write_file)
 
 
-updater = Updater(config["1593466250:AAEs6wu3M20p-Twdm1qrlDpDUgJ0z5j4Wj8"])
+updater = Updater(config["TOKEN"])
 dispatcher = updater.dispatcher
 
 
